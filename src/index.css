@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer utilities {
+  .gradient-border {
+    position: relative;
+
+    border-radius: 50px;
+    background: linear-gradient(90deg, #f436d4, #8aea6f, #4ddaf6, #f436d4);
+  }
+
+  .gradient-border .content {
+    display: flex;
+    background-color: white;
+    border-radius: 50px;
+
+  }
+}
+
+.flex-between {
+  @apply flex items-center justify-between content-center
+}
