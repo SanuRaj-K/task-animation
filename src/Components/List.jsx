@@ -1,14 +1,17 @@
 import React from "react";
 import Pic from "../Assets/Icons/Ellipse 13.png";
- function List() {
+function List() {
   const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
   return (
     <div className=" mt-7">
-      
       {arr.map((item, index) => (
         <>
           <div key={index} className="flex    my-3 items-center">
-            <img className="h-[45px] w-[45px] cursor-pointer" src={Pic} alt="pic" />
+            <img
+              className="h-[45px] w-[45px] cursor-pointer"
+              src={Pic}
+              alt="pic"
+            />
             <div className="flex ml-2 cursor-pointer flex-col">
               <span className=" ">What are the key principles of coding?</span>
               <span className="text-[#0A090E9C] text-[12px]">
@@ -31,7 +34,9 @@ import Pic from "../Assets/Icons/Ellipse 13.png";
                     stroke-linejoin="round"
                   />
                 </svg>
-                <span className="uppercase  text-[10px] font-semibold ml-1">12 Responses</span>
+                <span className="uppercase  text-[10px] font-semibold ml-1">
+                  12 Responses
+                </span>
               </div>
               <button className="bg-[#0A090E]   hover:bg-[#36333f] text-white text=[14px] px-8 py-2 rounded-md">
                 View Answer
@@ -41,7 +46,12 @@ import Pic from "../Assets/Icons/Ellipse 13.png";
           <div className=" bg-[#17132740] h-[1px] my-3 w-full "></div>
         </>
       ))}
-     </div>
+      <div>
+        <button className=" border my-7  border-[#0A090E] px-7  py-2 inline rounded-3xl">
+          Load More
+        </button>
+      </div>
+    </div>
   );
 }
 

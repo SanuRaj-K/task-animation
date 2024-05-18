@@ -1,4 +1,8 @@
  *{
     font-family:  sans-serif, ;
  }
- 
+ .bg-img{
+   background-image: url('./Assets/Images/bg-bottom.png');
+   background-repeat: no-repeat;
+   background-position:cover;
+ }
