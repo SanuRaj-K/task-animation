@@ -97,7 +97,7 @@ function Header() {
           </div>
         ) : null}
       </div>
-      <div className=" w-full ">
+      <div className=" w-full hidden ">
         <div className="flex    justify-center">
           <div className=" flex-between  bg-red-50 w-1/2 px-4 py-2  ">
             <div>
