@@ -49,7 +49,7 @@ function Header() {
           {menuIcon ? (
             <div>
               <svg
-              className=" "
+                className=" "
                 xmlns="http://www.w3.org/2000/svg"
                 x="0px"
                 y="0px"
@@ -95,7 +95,7 @@ function Header() {
               </div>
             </li>
             <li className=" ">
-              <div className=" bg-black text-white px-4 py-2  rounded-3xl">
+              <div className=" bg-black hover:bg-gray-500 text-white px-4 py-2  rounded-3xl">
                 Join Program
               </div>
             </li>
@@ -142,19 +142,19 @@ function Header() {
               </svg>
             </div>
             <div className=" cursor-pointer flex items-center">
-              <div className=" bg-black   px-4 py-1 rounded-3xl text-white flex items-center">
+              <div className=" bg-black hover:bg-gray-500  px-4 py-1 rounded-3xl text-white flex items-center">
                 <img className="  " src={menu} alt="" />
                 <span className="  ">Menu</span>
               </div>
-              <div className="gradient-border p-[2px] ml-3">
-                <div className="content px-3 py-1">
+              <div className="gradient-border      p-[2px] ml-3">
+                <div className="content px-3 hover:bg-custom-gradient  hover:text-white py-1">
                   <img
                     width="24"
                     height="24"
                     src="https://img.icons8.com/plumpy/24/chat-message.png"
                     alt="chat-message"
                   />
-                  <span>Discuss CPT</span>
+                  <span className="">Discuss CPT</span>
                 </div>
               </div>
             </div>
@@ -179,7 +179,7 @@ function Header() {
                   </div>
                 </li>
                 <li className=" ">
-                  <div className=" bg-black text-white px-4 py-2  rounded-3xl">
+                  <div className="hover:bg-gray-500 bg-black text-white px-4 py-2  rounded-3xl">
                     Join Program
                   </div>
                 </li>

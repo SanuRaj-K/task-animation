@@ -23,7 +23,7 @@ function List() {
               </span>
             </div>
             <div className="flex  sm:ml-auto items-center space-x-4">
-              <div className="flex cursor-pointer bg-[#F2EFFF] px-6 py-2 rounded-2xl items-center">
+              <div className="flex cursor-pointer hover:bg-red-600 bg-[#F2EFFF] px-6 py-2 rounded-2xl items-center">
                 <svg
                   width="20"
                   height="20"
@@ -38,7 +38,7 @@ function List() {
                     strokeLinejoin="round"
                   />
                 </svg>
-                <span className="uppercase  text-[10px] font-semibold ml-1">
+                <span className="uppercase   text-[10px] font-semibold ml-1">
                   12 Responses
                 </span>
               </div>

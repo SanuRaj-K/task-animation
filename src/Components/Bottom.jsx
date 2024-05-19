@@ -181,7 +181,7 @@ function Bottom() {
                     <div className=" text-center text-white">
                       <span>E-BOOK</span>
                       <p>Charting Paths:Program Through a Student's Eyes</p>
-                      <div className=" inline-flex px-3 py-1 rounded-2xl border-[#FFF9E3]  mt-3  cursor-pointer text-[#FFF9E3] justify-center items-center border">
+                      <div className=" hover:flex-row-reverse inline-flex px-3 py-1 rounded-2xl border-[#FFF9E3]  mt-3  cursor-pointer text-[#FFF9E3] justify-center items-center border">
                         <span>Get the guide</span>
                         <svg
                           width="22"
