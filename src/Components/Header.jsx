@@ -77,7 +77,7 @@ function Header() {
         <div className=" hidden sm:flex">
           <ul className=" flex-between  cursor-pointer">
             <li className=" relative">
-              <li className=" ml-3">
+              <div className=" ml-3">
                 <div className=" bg-black h-10  w-10 rounded-full flex justify-center items-center">
                   <div className=" bg-white h-7 w-7 rounded-full flex justify-center items-center">
                     <svg
@@ -92,7 +92,7 @@ function Header() {
                     </svg>
                   </div>
                 </div>
-              </li>
+              </div>
             </li>
             <li className=" ">
               <div className=" bg-black text-white px-4 py-2  rounded-3xl">
@@ -161,7 +161,7 @@ function Header() {
             <div>
               <ul className=" flex  cursor-pointer">
                 <li className=" relative">
-                  <li className=" ml-3">
+                  <div className=" ml-3">
                     <div className=" bg-black h-10  w-10 rounded-full flex justify-center items-center">
                       <div className=" bg-white h-7 w-7 rounded-full flex justify-center items-center">
                         <svg
@@ -176,7 +176,7 @@ function Header() {
                         </svg>
                       </div>
                     </div>
-                  </li>
+                  </div>
                 </li>
                 <li className=" ">
                   <div className=" bg-black text-white px-4 py-2  rounded-3xl">
