@@ -10,8 +10,8 @@ import AvatharPic8 from "../Assets/Images/14 (1) 1.png";
 
 function Avathar() {
   return (
-    <div className=" ">
-      <div className=" flex h-[350px]       mx-5 items-end relative ">
+    <div className="  ">
+      <div className=" flex h-[350px]    cursor-pointer    mx-5 items-end relative ">
         <div className=" bg-[#FFF3EC] h-[180px]  w-[180px] rounded-full">
           <img src={AvatharPic4} alt="avatar" />
         </div>
@@ -36,7 +36,7 @@ function Avathar() {
           <div className=" bg-[#BBAEF0] h-[180px] w-[180px] rounded-full">
             <img src={AvatharPic6} alt="avatar" />
           </div>
-          <div className=" bg-[#FCCC60]   left-36 top-16 absolute   h-[180px] w-[180px] rounded-full">
+          <div className=" bg-[#FCCC60]    left-36 top-16 absolute   h-[180px] w-[180px] rounded-full">
             <span className="  text-white   bg-[#6B6097] rounded-2xl rounded-bl-sm px-4    text-[12px] py-1">
               Hey Thanks
             </span>

@@ -37,12 +37,12 @@ function Header() {
             />
           </svg>
         </div>
-        <div className=" hidden md:flex">
+        <div className=" hidden  md:flex">
           <ul className=" flex-between    font-medium cursor-pointer    ">
-            <li className=" mr-3  ">Learn</li>
-            <li className=" mr-3">How do I participate?</li>
-            <li className=" mr-3">Universities</li>
-            <li className=" mr-3">Corporate</li>
+            <li className=" mr-3 my-1  ">Learn</li>
+            <li className=" mr-3 my-1">How do I participate?</li>
+            <li className=" mr-3 my-1">Universities</li>
+            <li className=" mr-3 my-2">Corporate</li>
           </ul>
         </div>
         <div className="  sm:hidden" onClick={() => setMenuIcon(!menuIcon)}>
