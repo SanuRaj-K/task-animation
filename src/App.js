@@ -12,7 +12,7 @@ function App() {
     setFadeInClass("fade-in");
   }, []);
   return (
-    <div className={`App ${fadeInClass}`}>
+    <div className={`App ${fadeInClass} max-w-screen-2xl mx-auto`}>
       <Header />
       <Home />
       <CardSection />

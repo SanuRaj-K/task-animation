@@ -14,7 +14,7 @@ function Bottom() {
               <span className=" font-semibold">MARCH 12 2024</span>
             </div>
 
-            <div className=" bg-[#BEDFFF] px-3 py-1 rounded-lg inline-flex items-center">
+            <div className=" cursor-pointer hover:italic bg-[#BEDFFF] px-3 py-1 rounded-lg inline-flex items-center">
               <svg
                 width="16"
                 height="16"
@@ -73,7 +73,7 @@ function Bottom() {
             </div>
           </div>
 
-          <div className=" ">
+          <div className="  mt-10 ">
             <List />
           </div>
         </div>

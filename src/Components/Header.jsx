@@ -39,10 +39,18 @@ function Header() {
         </div>
         <div className=" hidden  md:flex">
           <ul className=" flex-between    font-medium cursor-pointer    ">
-            <li className=" mr-3 my-1  ">Learn</li>
-            <li className=" mr-3 my-1">How do I participate?</li>
-            <li className=" mr-3 my-1">Universities</li>
-            <li className=" mr-3 my-2">Corporate</li>
+            <li className="  hover:italic hover:font-extrabold   mr-3 my-1  ">
+              Learn
+            </li>
+            <li className="  hover:italic hover:font-extrabold   mr-3 my-1">
+              How do I participate?
+            </li>
+            <li className="  hover:italic  hover:font-extrabold  mr-3 my-1">
+              Universities
+            </li>
+            <li className="  hover:italic hover:font-extrabold  mr-3 my-2">
+              Corporate
+            </li>
           </ul>
         </div>
         <div className="  sm:hidden" onClick={() => setMenuIcon(!menuIcon)}>
@@ -79,7 +87,7 @@ function Header() {
             <li className=" relative">
               <div className=" ml-3">
                 <div className=" bg-black h-10  w-10 rounded-full flex justify-center items-center">
-                  <div className=" bg-white h-7 w-7 rounded-full flex justify-center items-center">
+                  <div className=" bg-white  h-7 w-7 rounded-full flex justify-center items-center">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       x="0px"
@@ -107,10 +115,10 @@ function Header() {
           <div>
             <div className=" px-4 z-50 bg-white  ">
               <ul className="   font-medium cursor-pointer    ">
-                <li className=" mr-3  ">Learn</li>
-                <li className=" mr-3">How do I participate?</li>
-                <li className=" mr-3">Universities</li>
-                <li className=" mr-3">Corporate</li>
+                <li className=" hover:italic  mr-3  ">Learn</li>
+                <li className="hover:italic mr-3">How do I participate?</li>
+                <li className="hover:italic mr-3">Universities</li>
+                <li className="hover:italic mr-3">Corporate</li>
               </ul>
             </div>{" "}
           </div>
@@ -130,6 +138,7 @@ function Header() {
               {" "}
               <svg
                 width="40"
+                className=" cursor-pointer "
                 height="32"
                 viewBox="0 0 43 52"
                 fill="none"
@@ -142,8 +151,56 @@ function Header() {
               </svg>
             </div>
             <div className=" cursor-pointer flex items-center">
-              <div className=" bg-black hover:bg-gray-500  px-4 py-1 rounded-3xl text-white flex items-center">
-                <img className="  " src={menu} alt="" />
+              <div className=" bg-black hover:bg-white hover:text-black  px-4 py-1 rounded-3xl text-white flex items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  x="0px"
+                  y="0px"
+                  className=" mr-1"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 256 256"
+                  style={{ fill: "#000000" }}
+                >
+                  <g
+                    fill="#150606"
+                    fillRule="nonzero"
+                    stroke="none"
+                    strokeWidth="1"
+                    strokeLinecap="butt"
+                    strokeLinejoin="miter"
+                    strokeMiterlimit="10"
+                    strokeDasharray=""
+                    strokeDashoffset="0"
+                    fontFamily="none"
+                    fontWeight="none"
+                    fontSize="none"
+                    textAnchor="none"
+                    style={{ mixBlendMode: "normal" }}
+                  >
+                    <path d="M0,256v-256h256v256z" id="bgRectangle"></path>
+                  </g>
+                  <g
+                    fill="#ffffff"
+                    fillRule="nonzero"
+                    stroke="none"
+                    strokeWidth="1"
+                    strokeLinecap="butt"
+                    strokeLinejoin="miter"
+                    strokeMiterlimit="10"
+                    strokeDasharray=""
+                    strokeDashoffset="0"
+                    fontFamily="none"
+                    fontWeight="none"
+                    fontSize="none"
+                    textAnchor="none"
+                    style={{ mixBlendMode: "normal" }}
+                  >
+                    <g transform="scale(9.84615,9.84615)">
+                      <path d="M0,4v2h26v-2zM0,12v2h26v-2zM0,20v2h26v-2z"></path>
+                    </g>
+                  </g>
+                </svg>
                 <span className="  ">Menu</span>
               </div>
               <div className="gradient-border      p-[2px] ml-3">

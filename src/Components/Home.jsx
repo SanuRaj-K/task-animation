@@ -22,7 +22,7 @@ function Home() {
               id=""
             />
 
-            <div className=" bg-black h-8  cursor-pointer w-8 rounded-full flex justify-center items-center">
+            <div className=" bg-black hover:bg-white h-8  cursor-pointer w-8 rounded-full flex justify-center items-center">
               <div className=" bg-white h-5 w-5  rounded-full flex justify-center items-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

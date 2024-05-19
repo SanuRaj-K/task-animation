@@ -16,8 +16,8 @@ function List() {
               />
             </div>
 
-            <div className="flex ml-2 cursor-pointer flex-col">
-              <span className="    ">What are the key principles of coding?</span>
+            <div className="flex  hover:font-semibold  ml-2 cursor-pointer flex-col">
+              <span className="   ">What are the key principles of coding?</span>
               <span className="text-[#0A090E9C] my-2 sm:my-0 flex justify-center sm:justify-normal text-[12px]">
                 Posted by Jishnu Ambadir
               </span>
@@ -51,7 +51,7 @@ function List() {
         </>
       ))}
       <div>
-        <button className=" border my-7  border-[#0A090E] px-7  py-2 inline rounded-3xl">
+        <button className=" border my-7  hover:bg-black hover:text-white  border-[#0A090E] px-7  py-2 inline rounded-3xl">
           Load More
         </button>
       </div>
