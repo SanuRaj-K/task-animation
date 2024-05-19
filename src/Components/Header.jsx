@@ -16,10 +16,13 @@ function Header() {
     };
   }, []);
 
- 
   return (
     <div className=" z-50  ">
-      <div className={`flex-between cursor-pointer px-8 text-[14px]  `}>
+      <div
+        className={`flex-between ${
+          scrollPosition >= 50 ? "" : " "
+        } cursor-pointer px-8 text-[14px]  `}
+      >
         <div className=" p-4">
           <svg
             width="43"
@@ -112,10 +115,11 @@ function Header() {
           </div>
         ) : null}
       </div>
-      <div className={`w-full    `}>
-        <div className={`lg:flex     justify-center `}>
+
+      <div className={`w-full fixed z-50 top-2 ${scrollPosition>=50 ?' block':"hidden"}  `}>
+        <div className={`lg:flex      justify-center `}>
           <div
-            className={`flex-between  bg-black w-1/2 px-4 py-2  rounded-2xl `}
+            className={`flex-between backdrop-blur w-1/2 px-4 py-2           rounded-2xl `}
           >
             <div>
               {" "}
@@ -133,9 +137,9 @@ function Header() {
               </svg>
             </div>
             <div className=" cursor-pointer flex items-center">
-              <div className="   px-4 py-1 rounded-3xl text-white flex items-center">
+              <div className=" bg-black   px-4 py-1 rounded-3xl text-white flex items-center">
                 <img className="  " src={menu} alt="" />
-                <span>Menu</span>
+                <span className="  ">Menu</span>
               </div>
               <div className="gradient-border p-[2px] ml-3">
                 <div className="content px-3 py-1">
