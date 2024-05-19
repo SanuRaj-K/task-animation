@@ -17,9 +17,9 @@ function Header() {
   }, []);
 
   return (
-    <div className=" z-50  ">
+    <div className=" z-50 fixed top-0 bg-custom-gradient  sm:static w-full ">
       <div
-        className={`flex-between ${
+        className={`flex-between   ${
           scrollPosition >= 50 ? "" : " "
         } cursor-pointer px-8 text-[14px]  `}
       >
@@ -49,6 +49,7 @@ function Header() {
           {menuIcon ? (
             <div>
               <svg
+              className=" "
                 xmlns="http://www.w3.org/2000/svg"
                 x="0px"
                 y="0px"
@@ -104,8 +105,8 @@ function Header() {
       <div>
         {!menuIcon ? (
           <div>
-            <div className=" px-4 ">
-              <ul className=" flex-between    font-medium cursor-pointer    ">
+            <div className=" px-4 z-50 bg-white  ">
+              <ul className="   font-medium cursor-pointer    ">
                 <li className=" mr-3  ">Learn</li>
                 <li className=" mr-3">How do I participate?</li>
                 <li className=" mr-3">Universities</li>
@@ -116,10 +117,14 @@ function Header() {
         ) : null}
       </div>
 
-      <div className={`w-full fixed z-50 top-2 ${scrollPosition>=50 ?' block':"hidden"}  `}>
-        <div className={`lg:flex      justify-center `}>
+      <div
+        className={`w-full sm:w-full    fixed z-50 top-2 ${
+          scrollPosition >= 50 ? " block md:block" : "hidden"
+        }  `}
+      >
+        <div className={`lg:flex  hidden sm:block    justify-center `}>
           <div
-            className={`flex-between backdrop-blur w-1/2 px-4 py-2           rounded-2xl `}
+            className={`flex-between backdrop-blur lg:w-1/2 px-4 py-2           rounded-2xl `}
           >
             <div>
               {" "}

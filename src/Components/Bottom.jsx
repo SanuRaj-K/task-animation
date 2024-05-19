@@ -4,7 +4,7 @@ import Star from "../Assets/Images/Star 1.png";
 import Star2 from "../Assets/Images/star2.png";
 function Bottom() {
   return (
-    <div className=" mx-6  mt-4">
+    <div className=" mx-6    mt-4">
       <div className=" lg:flex justify-between  ">
         <div className=" lg:w-2/3 md:w-full">
           <div className=" flex justify-between">
@@ -77,7 +77,7 @@ function Bottom() {
             <List />
           </div>
         </div>
-        <div className="   sm:flex  lg:flex-col justify-around">
+        <div className="   sm:flex    flex flex-col md:flex-row   items-center    lg:flex-col justify-around">
           <div className=" relative rounded-lg bg-[#FFEADE8C] w-[300px] h-[400px]">
             <div className=" text-[24px]   pb-2 italic font-semibold  text-center">
               <span>Top Contributor this week</span>

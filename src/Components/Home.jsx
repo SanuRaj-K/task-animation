@@ -8,12 +8,12 @@ function Home() {
       </div>
       <div className="  ">
         <div className=" flex flex-col justify-center  items-center content-center">
-          <span>FORUM</span>
+          <span className=" ">FORUM</span>
           <h3 className=" text-[36px] font-medium py-4">Discuss & Evolve</h3>
-          <p className=" text-gray-300 font-semibold">
+          <p className=" text-gray-300 font-semibold text-center">
             Engage with fellow professionals: join the program forum discussion!
           </p>
-          <div className=" border  w-[450px] px-4 py-2 rounded-3xl my-4 flex justify-between">
+          <div className=" border   w-[450px] px-4 py-2 rounded-3xl my-4 flex justify-between">
             <input
               className=" flex-grow outline-none "
               placeholder=" Search topics"
@@ -38,7 +38,7 @@ function Home() {
             </div>
           </div>
           <div className=" flex flex-col  relative">
-            <ul className=" uppercase flex  text-[14px] justify-center items-center">
+            <ul className=" uppercase flex    text-[14px] justify-center items-center">
               <li className=" bg-[#FFF2F6] px-3 py-1 rounded-xl mx-2">
                 <svg
                   width="16"
