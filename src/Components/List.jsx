@@ -6,19 +6,22 @@ function List() {
     <div className=" mt-7">
       {arr.map((item, index) => (
         <>
-          <div key={index} className="flex    my-3 items-center">
-            <img
-              className="h-[45px] w-[45px] cursor-pointer"
-              src={Pic}
-              alt="pic"
-            />
+          <div key={index} className="sm:flex  flex  flex-col sm:flex-row   justify-center   my-3 items-center  ">
+            <div className=" ">
+              <img
+                className="h-[45px] w-[45px] cursor-pointer"
+                src={Pic}
+                alt="pic"
+              />
+            </div>
+
             <div className="flex ml-2 cursor-pointer flex-col">
-              <span className=" ">What are the key principles of coding?</span>
-              <span className="text-[#0A090E9C] text-[12px]">
-                Posted by Jishnu Ambadi
+              <span className="    ">What are the key principles of coding?</span>
+              <span className="text-[#0A090E9C] my-2 sm:my-0 flex justify-center sm:justify-normal text-[12px]">
+                Posted by Jishnu Ambadir
               </span>
             </div>
-            <div className="flex ml-auto items-center space-x-4">
+            <div className="flex  sm:ml-auto items-center space-x-4">
               <div className="flex cursor-pointer bg-[#F2EFFF] px-6 py-2 rounded-2xl items-center">
                 <svg
                   width="20"

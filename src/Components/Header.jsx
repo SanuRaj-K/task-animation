@@ -17,7 +17,7 @@ function Header() {
   }, []);
 
   return (
-    <div className=" z-50 fixed top-0 bg-custom-gradient  sm:static w-full ">
+    <div className=" z-50 fixed top-0 bg-custom-gradient md:bg-none  sm:static w-full ">
       <div
         className={`flex-between   ${
           scrollPosition >= 50 ? "" : " "

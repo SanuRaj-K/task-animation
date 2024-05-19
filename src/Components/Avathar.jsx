@@ -11,7 +11,7 @@ import AvatharPic8 from "../Assets/Images/14 (1) 1.png";
 function Avathar() {
   return (
     <div>
-      <div className=" flex h-[350px] mx-5 items-end relative ">
+      <div className=" flex h-[350px]  mx-5 items-end relative ">
         <div className=" bg-[#FFF3EC] h-[180px] w-[180px] rounded-full">
           <img src={AvatharPic4} alt="avatar" />
         </div>
@@ -44,7 +44,7 @@ function Avathar() {
             <img className="  " src={AvatharPic3} alt="avatar" />
           </div>
         </div>
-        <div className=" flex justify-end  w-full">
+        <div className="  flex justify-end    w-full">
           <div className=" bg-[#defb96] absolute  bottom-36 right-36 h-[180px] w-[180px] rounded-full">
             <img src={AvatharPic7} alt="avatar" />
           </div>

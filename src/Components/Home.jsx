@@ -7,13 +7,13 @@ function Home() {
         <span className=" text-gray-400">Home/Forum</span>
       </div>
       <div className="  ">
-        <div className=" flex flex-col justify-center  items-center content-center">
+        <div className=" flex flex-col px-1 justify-center  items-center content-center">
           <span className=" ">FORUM</span>
           <h3 className=" text-[36px] font-medium py-4">Discuss & Evolve</h3>
           <p className=" text-gray-300 font-semibold text-center">
             Engage with fellow professionals: join the program forum discussion!
           </p>
-          <div className=" border   w-[450px] px-4 py-2 rounded-3xl my-4 flex justify-between">
+          <div className=" border w-full    sm:w-[450px] px-4 py-2 rounded-3xl my-4 flex justify-between">
             <input
               className=" flex-grow outline-none "
               placeholder=" Search topics"
@@ -75,14 +75,7 @@ function Home() {
               </li>
               <li className=" cursor-pointer">View Topics</li>
             </ul>
-            <div className=" flex justify-center ">
-              {/* <img
-                width="50"
-                height="50"
-                src="https://img.icons8.com/ios-filled/50/long-arrow-down.png"
-                alt="long-arrow-down"
-              /> */}
-            </div>
+            
           </div>
         </div>
       </div>
