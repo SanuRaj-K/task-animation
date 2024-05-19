@@ -1,10 +1,25 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import menu from "../Assets/Icons/icons8-menu.svg";
 function Header() {
   const [menuIcon, setMenuIcon] = useState(true);
+  const [scrollPosition, setScrollPosition] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollPosition(window.scrollY);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+ 
   return (
-    <div>
-      <div className="flex-between  px-8 text-[14px]">
+    <div className=" z-50  ">
+      <div className={`flex-between cursor-pointer px-8 text-[14px]  `}>
         <div className=" p-4">
           <svg
             width="43"
@@ -97,9 +112,11 @@ function Header() {
           </div>
         ) : null}
       </div>
-      <div className=" w-full hidden ">
-        <div className="flex    justify-center">
-          <div className=" flex-between  bg-red-50 w-1/2 px-4 py-2  ">
+      <div className={`w-full    `}>
+        <div className={`lg:flex     justify-center `}>
+          <div
+            className={`flex-between  bg-black w-1/2 px-4 py-2  rounded-2xl `}
+          >
             <div>
               {" "}
               <svg
@@ -116,7 +133,7 @@ function Header() {
               </svg>
             </div>
             <div className=" cursor-pointer flex items-center">
-              <div className=" bg-black px-4 py-1 rounded-3xl text-white flex items-center">
+              <div className="   px-4 py-1 rounded-3xl text-white flex items-center">
                 <img className="  " src={menu} alt="" />
                 <span>Menu</span>
               </div>

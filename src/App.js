@@ -13,7 +13,7 @@ function App() {
       <CardSection />
 
       <Bottom />
-      {/* <div className="h-[100vh] bg-red-300 sm:bg-green-400 md:bg-yellow-400 lg:bg-black"></div> */}
+      <div className="h-[100vh] bg-red-300 sm:bg-green-400 md:bg-yellow-400 lg:bg-black"></div>
     </div>
   );
 }

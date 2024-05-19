@@ -5,9 +5,9 @@ import Star2 from "../Assets/Images/star2.png";
 function Bottom() {
   return (
     <div className=" mx-6  mt-4">
-      <div className=" flex justify-between  ">
-        <div className=" w-2/3">
-          <div className=" flex  justify-between">
+      <div className=" lg:flex justify-between  ">
+        <div className=" lg:w-2/3 md:w-full">
+          <div className=" flex justify-between">
             <div className=" flex text-[12px]  items-center">
               <span>LATEST DISCUSSTIONS AS OF</span>
               <div className=" bg-[#B31942] mx-1 h-[12px] w-[17px]"></div>
@@ -77,7 +77,7 @@ function Bottom() {
             <List />
           </div>
         </div>
-        <div className="">
+        <div className="   sm:flex  lg:flex-col justify-around">
           <div className=" relative rounded-lg bg-[#FFEADE8C] w-[300px] h-[400px]">
             <div className=" text-[24px]   pb-2 italic font-semibold  text-center">
               <span>Top Contributor this week</span>
@@ -164,7 +164,7 @@ function Bottom() {
               </div>
             </div>
           </div>
-          <div className=" mt-8 relative bg-custom-gradient  rounded-lg   w-[300px] h-[400px]">
+          <div className=" lg:mt-8 relative bg-custom-gradient  rounded-lg   w-[300px] h-[400px]">
             <div className=" flex justify-center">
               <div className="     ">
                 <div className=" flex  flex-col justify-center items-center">

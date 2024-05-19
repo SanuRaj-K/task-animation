@@ -76,12 +76,12 @@ function Home() {
               <li className=" cursor-pointer">View Topics</li>
             </ul>
             <div className=" flex justify-center ">
-              <img
+              {/* <img
                 width="50"
                 height="50"
                 src="https://img.icons8.com/ios-filled/50/long-arrow-down.png"
                 alt="long-arrow-down"
-              />
+              /> */}
             </div>
           </div>
         </div>
